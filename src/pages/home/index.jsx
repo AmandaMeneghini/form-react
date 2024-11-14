@@ -14,9 +14,7 @@ const Home = () => {
     const handleClickSignIn = () => {
         navigate('/login')
     }
-    const handleSignUp = () => {
-        navigate('/cadastro')
-    }
+    
 
     return (<>
         <Header />

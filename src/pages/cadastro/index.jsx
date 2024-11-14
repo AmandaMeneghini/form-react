@@ -64,7 +64,7 @@ const Cadastro = () => {
                 </form>
                 <DescriptionCadastro>Ao clicar em "criar minha conta grátis", declaro que aceito as Políticas de Privacidade e os Termos de Uso da DIO.</DescriptionCadastro>
                 <Row>
-                    <LoginText onClink={handleSignUp}><Text>Já tenho conta.</Text>Fazer Login</LoginText>
+                    <a href="/login"><LoginText onClink={handleSignUp}><Text>Já tenho conta.</Text>Fazer Login</LoginText></a>
                 </Row>
                 </Wrapper>
             </Column>

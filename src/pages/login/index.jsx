@@ -56,7 +56,7 @@ const Login = () => {
                 </form>
                 <Row>
                     <EsqueciText>Esqueci minha senha</EsqueciText>
-                    <CriarText>Criar Conta</CriarText>
+                    <a href="/cadastro"><CriarText>Criar Conta</CriarText></a>
                 </Row>
                 </Wrapper>
             </Column>
